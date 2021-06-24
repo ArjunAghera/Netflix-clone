@@ -1,7 +1,7 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDGp7QObS74Gg6o0xvu5tIjiM_Tg7EeUeY",
+  apiKey: process.env.REACT_APP_GOOGLE_API_KEY,
   authDomain: "netflix-clone-1f408.firebaseapp.com",
   projectId: "netflix-clone-1f408",
   storageBucket: "netflix-clone-1f408.appspot.com",
