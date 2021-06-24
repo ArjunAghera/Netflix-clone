@@ -1,0 +1,58 @@
+.signInPage {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px !important;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 100px 70px;
+  margin-top: -80px;
+}
+
+.signInPage > form {
+  display: grid;
+  flex-direction: column;
+}
+
+.signInPage > form > h1 {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.signInPage > form > input {
+  padding: 20px 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: rgb(41, 41, 41);
+  color: #d3d3d3;
+}
+
+.signInPage > form > button {
+  padding: 16px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.signInPage > form > h4 {
+  font-weight: 200;
+  color: #cacaca;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 1.08rem;
+}
+
+.signInPage > form > h4 > strong {
+  font-weight: 500;
+}
+
+.signInPage > form > h4 > strong:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,93 @@
+.loginPage {
+  position: relative;
+  height: 100%;
+}
+
+.loginBg {
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/8dc3f88b-a96a-4d8a-af9a-a69e6f3b2506/b2552a55-8439-4e7a-9cef-d42b787491b8/IN-en-20210524-popsignuptwoweeks-perspective_alpha_website_small.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+
+.loginBgGradient {
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.loginPageLogo {
+  position: fixed;
+  left: 20px;
+  top: 10px;
+  width: 120px;
+  padding-left: 20px;
+}
+
+.signInBtn {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  font-size: 1rem;
+  color: #fff;
+  outline: none;
+  border: none;
+  background-color: #e50914;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.loginPageBody {
+  width: 100%;
+  z-index: 1;
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+}
+
+.loginPageBody > h1 {
+  font-size: 3.8rem;
+  margin-bottom: 10px;
+}
+
+.flexTxt {
+  font-size: 1.8rem;
+  padding-bottom: 40px;
+}
+
+.restartMemTxt {
+  font-size: 1.4rem;
+  padding-bottom: 40px;
+}
+
+.loginPageInput > form > input {
+  padding: 10px;
+  outline-width: 0;
+  height: 40px;
+  width: 40%;
+  border: none;
+  max-width: 700px;
+}
+
+.getStartedBtn {
+  position: relative;
+  top: 4px;
+  padding: 17px 20px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+}
+
+.getStartedBtn:hover {
+  background-color: rgb(243, 11, 22);
+}

@@ -1,0 +1,39 @@
+.plansSection-plans {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.plansInfo > h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.plansInfo > h6 {
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: 300px;
+}
+
+.plansSection-plans:hover {
+  opacity: 1;
+}
+
+.plansSection-plans > button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  max-height: 50px;
+  min-width: 160px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.planSection-subscribed > button {
+  background-color: rgb(41, 41, 41) !important;
+}
